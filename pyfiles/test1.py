@@ -52,7 +52,8 @@ p = 323232233223
 p = lambda x: 2 * x
 q = lambda _: -1
 f = lambda x: 2 * (x * x + 1) * cos(x)
-
+vvvv = 3
+bbbb = 4
 x1, y1 = bvp(N1, a, b, y0, yN, p, q, f)
 print("x1:", x1)
 print("y1:", y1)
